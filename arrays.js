@@ -49,4 +49,4 @@ for (let i = 0; i < bigOrSmallArray.length; i++){
     answers.push("small")
   }
 }
-console.log(bigOrSmallArray);
+console.log(answers);

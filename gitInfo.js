@@ -26,7 +26,7 @@ let gitHubDefinition = 'a website that allows you to take your git respositories
 */
 
 //CODE HERE
-let gitInitDefinition = 'initialize a local repository right here in this folder'
+let gitInitDefinition = 'initializes a git repository on your local machine in the directory where the command was run'
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -53,7 +53,7 @@ let gitStatusDefinition = "reports the status of the repository in the location 
 */
 
 //CODE HERE]
-let gitAddDefinition = 'add some files to be tracked (always!)'
+let gitAddDefinition = 'adds all files at the current location to the list of files to be tracked'
 
 let gitAddCode = ' git add .'
 
@@ -68,9 +68,9 @@ let gitAddCode = ' git add .'
 
 //CODE HERE
 
-let gitCommitDefinition = 'create a snapshot of the files I’m tracking'
+let gitCommitDefinition = ' creates a snapshot of all files being tracked.'
 
-let gitCommitCode = 'Git commit  -m “the name of the file”'
+let gitCommitCode = 'Git commit  -m “message”'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -82,4 +82,9 @@ let gitCommitCode = 'Git commit  -m “the name of the file”'
 
 let gitPushDefinition = 'put my local commits on Github'
 
-console.log(gitInitDefinition);
+// console.log(gitInitDefinition);
+// console.log(gitAddCode)
+// console.log(gitAddDefinition)
+// console.log(gitCloneDefinition)
+// console.log(gitCommitCode)
+// console.log(gitCommitDefinition)
